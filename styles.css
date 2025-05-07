@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 120px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffc107;
+}
+
+.home {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+    gap: 20px;
+}
+
+.services .service {
+    width: 30%;
+    text-align: center;
+}
+
+.services .service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.services .service h3 {
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.track {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.track input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.track button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.track button:hover {
+    background-color: #0056b3;
+}
+
+.about, .testimonials {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonials .testimonial {
+    background: #f1f1f1;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
